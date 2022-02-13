@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/img/Logo (1).svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/fonticons/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Zing Mp3</title>
+</head>
+
+<body>
+    <div class="app">
+        <!-- Sidebar nav -->
+        <div class="sidebar">
+            <div class="sidebar-logo">
+                <img src="./assets/images/img/Logo.svg" alt="logo">
+                <img src="./assets/images/img/Logo (1).svg" alt="logo">
+            </div>
+            <div class="sidebar-nav">
+                <ul class="sidebar-nav__list">
+                    <li>
+                        <a href="#">
+                            <div class="list-item active">
+                                <i class="fas fa-headphones-alt"></i>
+                                <h3>Cá nhân</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="list-item">
+                                <i class="fas fa-record-vinyl"></i>
+                                <h3>Khám phá</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="list-item">
+                                <i class="fas fa-music"></i>
+                                <h3>#zingchart</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="list-item">
+                                <i class="fas fa-broadcast-tower"></i>
+                                <h3>Radio</h3>
+                                <p>LIVE</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="list-item">
+                                <i class="fab fa-youtube"></i>
+                                <h3>Theo dõi</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <div class="list-item">
+                            <i class="fas fa-guitar"></i>
+                            <h3>Nhạc mới</h3>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="list-item">
+                            <i class="fas fa-sliders-h"></i>
+                            <h3>Thể loại</h3>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="list-item">
+                            <i class="far fa-star"></i>
+                            <h3>Top 100</h3>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="list-item">
+                            <i class="fas fa-video"></i>
+                            <h3>MV</h3>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="list-item">
+                            <p>Nghe nhạc không quảng cáo cùng kho nhạc VIP</p>
+                            <a class="buy-btn" href="#">MUA VIP</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="list-item">
+                            <h3>Thư viện</h3>
+                            <i class="fas fa-pencil-alt"></i>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="list-item">
+                            <i class="far fa-file-audio"></i>
+                            <h3>Bài hát</h3>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="list-item">
+                            <i class="fab fa-playstation"></i>
+                            <h3>Playlist</h3>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="list-item">
+                            <i class="fas fa-history"></i>
+                            <h3>Gần đây</h3>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="list-item">
+                            <i class="fas fa-plus"></i>
+                            <h3>Tạo playlist mới</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Tab personal -->
+        <div class="heading">
+            <div class="header-wrap">
+                <div class="header">
+                    <div class="header-icon">
+                        <i class="fas fa-long-arrow-alt-left"></i>
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
+
+                    <div class="header-search">
+                        <div class="header-search__icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <input type="text" name="search" id="search"
+                            placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV...">
+                        <div class="header-history">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-search"></i>
+                                    <span>Tình bạn diệu kỳ</span>
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-search"></i>
+                                    <span>Gác lại âu lo</span>
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-search"></i>
+                                    <span>HongKong1</span>
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-search"></i>
+                                    <span>#zingchart</span>
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-search"></i>
+                                    <span>Cheating on you</span>
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-search"></i>
+                                    <span>BlackJack</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header">
+                    <div class="header-clothe__icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+
+                    <div class="header-upload__icon">
+                        <i class="fas fa-upload"></i>
+                    </div>
+
+                    <div class="header-config__icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+
+                    <div class="header-config__show">
+                        <ul>
+                            <li>
+                                <i class="fas fa-lock"></i>
+                                <span>Danh sách chặn</span>
+                            </li>
+
+                            <li>
+                                <i class="fas fa-film"></i>
+                                <span>Chất lượng nhạc</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </li>
+
+                            <li>
+                                <i class="far fa-play-circle"></i>
+                                <span>Trình phát nhạc</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </li>
+
+                            <li>
+                                <i class="fas fa-exclamation-circle"></i>
+                                <span>Giới thiệu</span>
+                            </li>
+
+                            <li>
+                                <i class="far fa-flag"></i>
+                                <span>Góp ý</span>
+                            </li>
+
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>Liên hệ</span>
+                            </li>
+
+                            <li>
+                                <i class="fas fa-ad"></i>
+                                <span>Quảng cáo</span>
+                            </li>
+
+                            <li>
+                                <i class="fas fa-calculator"></i>
+                                <span>Thỏa thuận sử dụng</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="header-avatar">
+                        <img src="./assets/images/unnamed.jpg" alt="avatar">
+                    </div>
+                </div>
+            </div>
+
+            <div class="user-wrap">
+                <div class="user">
+                    <div class="user-img">
+                        <img src="./assets/images/unnamed.jpg" alt="avatar">
+                    </div>
+                    <h1>Huyy Nguyễnz</h1>
+                </div>
+
+                <div class="user-btn">
+                    <a href="#">MUA VIP NGAY</a>
+                    <a href="#">NHẬP CODE VIP</a>
+                    <a href="#">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </a>
+                    <div class="user-btn__sign-out">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <p>Đăng xuất</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content navbar -->
+
+            <div class="content">
+                <div class="content__navbar">
+                    <div class="content__navbar-container">
+                        <ul class="content__navbar-menu">
+                            <li class="content__navbar-item active" data-index='0'>
+                                <span>Tổng quan</span>
+                            </li>
+
+                            <li class="content__navbar-item" data-index='1'>
+                                <span>Bài hát</span>
+                            </li>
+
+                            <li class="content__navbar-item" data-index='2'>
+                                <span>Playlist</span>
+                            </li>
+
+                            <li class="content__navbar-item" data-index='3'>
+                                <span>Album</span>
+                            </li>
+
+                            <li class="content__navbar-item" data-index='4'>
+                                <span>MV</span>
+                            </li>
+
+                            <li class="content__navbar-item" data-index='5'>
+                                <span>Nghệ sĩ</span>
+                            </li>
+
+                            <li class="content__navbar-item" data-index='6'>
+                                <span>Tải lên</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="content__container">
+                    <!-- Play music -->
+                    <div class="grid">
+                        <div class="row mb-100">
+                            <div class="col l-12 m-12 c-12">
+                                <div class="content__title">
+                                    <div class="content__title-left">
+                                        <span>Bài Hát</span>
+                                        <i class="fas fa-chevron-right"></i>
+                                    </div>
+
+                                    <div class="content__title-right">
+                                        <a href="#" class="upload-btn">
+                                            <i class="fas fa-upload"></i>
+                                            <span>Tải lên</span>
+                                        </a>
+
+                                        <a href="#" class="play-all-btn">
+                                            <i class="fas fa-play"></i>
+                                            <span>Phát tất cả</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-12 m-12 c-12">
+                                <div class="content__play-music">
+                                    <div class="content__slide">
+                                        <div class="content__slide-item first">
+                                            <img src="./assets/images/img/artist5 (1).jpg">
+                                        </div>
+
+                                        <div class="content__slide-item second">
+                                            <img src="./assets/images/img/artist4.jpg">
+                                        </div>
+
+                                        <div class="content__slide-item third">
+                                            <img src="./assets/images/img/artist5 (3).jpg">
+                                        </div>
+
+                                        <div class="content__slide-item fourth">
+                                            <img src="./assets/images/img/artist6 (1).jpg">
+                                        </div>
+
+                                        <div class="content__slide-item fifth">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="content__music-list">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col l-12 m-12 c-12">
+                                <div class="content__music-list-open">
+                                    <div class="music__list-all">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Playlist -->
+                        <div class="row mb-120">
+                            <div class="col l-12 m-12 c-12 mb-20">
+                                <div class="content__playlist-header">
+                                    <span>Playlist</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+
+                            <div class="col l-12 m-12 c-12">
+                                <div class="content__playlist">
+                                    <div class="row">
+                                        <div class="col l-2-4 m-3 c-4 mb-20">
+                                            <div class="content__playlist-item">
+                                                <div class="img-hover">
+                                                    <div class="img"
+                                                        style="background: url('./assets/images/img/playlist1.jpg') no-repeat center center / cover">
+                                                        <div class="img-action">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <i class="fas fa-ellipsis-h"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>V-Pop: The A-List</p>
+                                                <span>Zing MP3</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-2-4 m-3 c-4 mb-20">
+                                            <div class="content__playlist-item">
+                                                <div class="img-hover">
+                                                    <div class="img"
+                                                        style="background: url('./assets/images/img/playlist2.jpg') no-repeat center center / cover">
+                                                        <div class="img-action">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <i class="fas fa-ellipsis-h"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Rồi tới luôn</p>
+                                                <span>NAL</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-2-4 m-3 c-4 mb-20">
+                                            <div class="content__playlist-item">
+                                                <div class="img-hover">
+                                                    <div class="img"
+                                                        style="background: url('./assets/images/img/playlist3.jpg') no-repeat center center / cover">
+                                                        <div class="img-action">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <i class="fas fa-ellipsis-h"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Nhạc Quốc Tế</p>
+                                                <span>Lạc Trôi</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-2-4 m-3 c-4 mb-20">
+                                            <div class="content__playlist-item">
+                                                <div class="img-hover">
+                                                    <div class="img"
+                                                        style="background: url('./assets/images/img/playlist4.jpg') no-repeat center center / cover">
+                                                        <div class="img-action">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <i class="fas fa-ellipsis-h"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Những bản hit của Rap Việt</p>
+                                                <span>Bigcityboi</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-2-4 m-3 c-4 mb-20">
+                                            <div class="content__playlist-item">
+                                                <div class="img-hover">
+                                                    <div class="img"
+                                                        style="background: url('./assets/images/img/playlist5.jpg') no-repeat center center / cover">
+                                                        <div class="img-action">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <i class="fas fa-ellipsis-h"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Top 100 Bài Hát Nhạc Trẻ Hay Nhất</p>
+                                                <span>Zing MP3</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="content__playlist-open">
+                                    <div class="row">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Album -->
+                        <div class="row mb-120">
+                            <div class="col l-12 m-12 c-12 mb-20">
+                                <div class="content__album-header">
+                                    <span>Album</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+
+                            <div class="col l-12 m-12 c-12">
+                                <div class="content__album">
+                                    <div class="row">
+                                        <div class="col l-2-4 m-3 c-4 mb-20">
+                                            <div class="content__album-item">
+                                                <div class="img-hover">
+                                                    <div class="img"
+                                                        style="background: url('./assets/images/img/album1.jpg') no-repeat center center / cover">
+                                                        <div class="img-action">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <i class="fas fa-ellipsis-h"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Golden Hour</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-2-4 m-3 c-4 mb-20">
+                                            <div class="content__album-item">
+                                                <div class="img-hover">
+                                                    <div class="img"
+                                                        style="background: url('./assets/images/img/album2.jpg') no-repeat center center / cover">
+                                                        <div class="img-action">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <i class="fas fa-ellipsis-h"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Boycold (Mini Album)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-2-4 m-3 c-4 mb-20">
+                                            <div class="content__album-item">
+                                                <div class="img-hover">
+                                                    <div class="img"
+                                                        style="background: url('./assets/images/img/album3.jpg') no-repeat center center / cover">
+                                                        <div class="img-action">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <i class="fas fa-ellipsis-h"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Red</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-2-4 m-3 c-4 mb-20">
+                                            <div class="content__album-item">
+                                                <div class="img-hover">
+                                                    <div class="img"
+                                                        style="background: url('./assets/images/img/album4.jpg') no-repeat center center / cover">
+                                                        <div class="img-action">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <i class="fas fa-ellipsis-h"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Người Yêu Cũ (Gửi Cho Anh 2) (Mini Album)</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-2-4 m-3 c-4 mb-20">
+                                            <div class="content__album-item">
+                                                <div class="img-hover">
+                                                    <div class="img"
+                                                        style="background: url('./assets/images/img/album5.jpg') no-repeat center center / cover">
+                                                        <div class="img-action">
+                                                            <i class="fa-solid fa-heart"></i>
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <i class="fas fa-ellipsis-h"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>Querencia (Mini Album)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="content__album-open">
+                                    <div class="row">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- MV -->
+                        <div class="row mb-120">
+                            <div class="col l-12 m-12 c-12 mb-20">
+                                <div class="content__mv-header">
+                                    <span>MV</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+
+                            <div class="col l-12 m-12 c-12">
+                                <div class="content__mv">
+                                    <div class="row">
+                                        <div class="col l-4 m-6 c-12 mb-20">
+                                            <div class="content__mv-item">
+                                                <div class="content__mv-item-box">
+                                                    <div class="image"
+                                                        style="background: url('./assets/images/img/mv1.jpg') no-repeat center center / cover">
+                                                        <div class="image-action">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <i class="fa-solid fa-x"></i>
+                                                        </div>
+                                                    </div>
+                                                    <span class="image-time">11:54</span>
+                                                </div>
+
+                                                <div class="content__mv-item-des">
+                                                    <img src="./assets/images/img/artist1.jpg">
+                                                    <div class="des-box">
+                                                        <p>Một bước Yêu Vạn Dặm Đau</p>
+                                                        <span>Mr.Siro</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-4 m-6 c-12 mb-20">
+                                            <div class="content__mv-item">
+                                                <div class="content__mv-item-box">
+                                                    <div class="image"
+                                                        style="background: url('./assets/images/img/mv2.jpg') no-repeat center center / cover">
+                                                        <div class="image-action">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <i class="fa-solid fa-x"></i>
+                                                        </div>
+                                                    </div>
+                                                    <span class="image-time">03:54</span>
+                                                </div>
+
+                                                <div class="content__mv-item-des">
+                                                    <img src="./assets/images/img/artist2.jpg">
+                                                    <div class="des-box">
+                                                        <p>Simple Love</p>
+                                                        <span>Obito, Seachains, Davis</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-4 m-6 c-12 mb-20">
+                                            <div class="content__mv-item">
+                                                <div class="content__mv-item-box">
+                                                    <div class="image"
+                                                        style="background: url('./assets/images/img/mv3.jpg') no-repeat center center / cover">
+                                                        <div class="image-action">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <i class="fa-solid fa-x"></i>
+                                                        </div>
+                                                    </div>
+                                                    <span class="image-time">04:33</span>
+                                                </div>
+
+                                                <div class="content__mv-item-des">
+                                                    <img src="./assets/images/img/artist3.jpg">
+                                                    <div class="des-box">
+                                                        <p>Lời Yêu Ngay Dại</p>
+                                                        <span>Kha</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="content__mv-open">
+                                    <div class="row">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Singer -->
+                        <div class="row mb-120">
+                            <div class="col l-12 m-12 c-12 mb-20">
+                                <div class="content__singer-header">
+                                    <span>Nghệ Sĩ</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+
+                            <div class="col l-12 m-12 c-12">
+                                <div class="content__singer">
+                                    <div class="row">
+                                        <div class="col l-2-4 m-3 c-6 mb-20">
+                                            <div class="content__singer-item">
+                                                <div class="content__singer-item-box">
+                                                    <div class="picture"
+                                                        style="background: url('./assets/images/img/artist1\ \(1\).jpg') no-repeat center center / cover">
+                                                        <div class="picture-action">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="content__singer-item-des">
+                                                    <div class="singer-name">
+                                                        <span>Binz</span>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+
+                                                    <div class="singer-follow">
+                                                        <p>265K quan tâm</p>
+                                                    </div>
+
+                                                    <div class="singer-btn">
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <a href="#">ĐÃ QUAN TÂM</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-2-4 m-3 c-6 mb-20">
+                                            <div class="content__singer-item">
+                                                <div class="content__singer-item-box">
+                                                    <div class="picture"
+                                                        style="background: url('./assets/images/img/artist2\ \(1\).jpg') no-repeat center center / cover">
+                                                        <div class="picture-action">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="content__singer-item-des">
+                                                    <div class="singer-name">
+                                                        <span>Phương Ly</span>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+
+                                                    <div class="singer-follow">
+                                                        <p>77K quan tâm</p>
+                                                    </div>
+
+                                                    <div class="singer-btn">
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <a href="#">ĐÃ QUAN TÂM</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-2-4 m-3 c-6 mb-20">
+                                            <div class="content__singer-item">
+                                                <div class="content__singer-item-box">
+                                                    <div class="picture"
+                                                        style="background: url('./assets/images/img/artist3\ \(1\).jpg') no-repeat center center / cover">
+                                                        <div class="picture-action">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="content__singer-item-des">
+                                                    <div class="singer-name">
+                                                        <span>AMEE</span>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+
+                                                    <div class="singer-follow">
+                                                        <p>317K quan tâm</p>
+                                                    </div>
+
+                                                    <div class="singer-btn">
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <a href="#">ĐÃ QUAN TÂM</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-2-4 m-3 c-6 mb-20">
+                                            <div class="content__singer-item">
+                                                <div class="content__singer-item-box">
+                                                    <div class="picture"
+                                                        style="background: url('./assets/images/img/artist4\ \(1\).jpg') no-repeat center center / cover">
+                                                        <div class="picture-action">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="content__singer-item-des">
+                                                    <div class="singer-name">
+                                                        <span>MCK</span>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+
+                                                    <div class="singer-follow">
+                                                        <p>52K quan tâm</p>
+                                                    </div>
+
+                                                    <div class="singer-btn">
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <a href="#">ĐÃ QUAN TÂM</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l-2-4 m-3 c-6 mb-20">
+                                            <div class="content__singer-item">
+                                                <div class="content__singer-item-box">
+                                                    <div class="picture"
+                                                        style="background: url('./assets/images/img/artist5\ \(1\).jpg') no-repeat center center / cover">
+                                                        <div class="picture-action">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="content__singer-item-des">
+                                                    <div class="singer-name">
+                                                        <span>Sơn Tùng M-TP</span>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+
+                                                    <div class="singer-follow">
+                                                        <p>2.1M quan tâm</p>
+                                                    </div>
+
+                                                    <div class="singer-btn">
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <a href="#">ĐÃ QUAN TÂM</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="content__singer-open">
+                                    <div class="row">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Upload -->
+                        <div class="row mb-120 upload">
+                            <div class="col l-12 m-12 c-12 mb-20">
+                                <div class="content__upload-header">
+                                    <span>Danh Sách Tải Lên</span>
+                                </div>
+                            </div>
+
+                            <div class="col l-12 m-12 c-12 mb-20">
+                                <div class="content__upload-item">
+                                    <div class="content__upload-item-wrap">
+                                        <div class="content__upload-item-icon">
+                                            <i class="fa-solid fa-music"></i>
+                                        </div>
+                                        <span>Không có bài hát tải lên</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Music Player -->
+        <div class="music-player">
+            <div class="music-player__left">
+                <img src="./assets/images/img/song1.jpg">
+                <div class="music-player__left-desc">
+                    <marquee>Cứ Chill Thôi</marquee>
+                    <span>Chillies, Suni Hạ Linh, Rhymastic</span>
+                </div>
+                <div class="music-player__left-option">
+                    <i class="fas fa-heart"></i>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+
+            <div class="music-player__center">
+                <div class="music-player__center-control">
+                    <div class="control__random">
+                        <i class="fas fa-random"></i>
+                    </div>
+
+                    <div class="control__prev">
+                        <i class="fas fa-step-backward"></i>
+                    </div>
+
+                    <div class="control__play">
+                        <i class="far fa-play-circle"></i>
+                    </div>
+
+                    <div class="control__pause">
+                        <i class="far fa-pause-circle"></i>
+                    </div>
+
+                    <div class="control__next">
+                        <i class="fas fa-step-forward"></i>
+                    </div>
+
+                    <div class="control__repeat">
+                        <i class="fas fa-redo"></i>
+                    </div>
+                </div>
+
+                <div class="music-player__center-progress">
+                    <span class="tracktime">00:00</span>
+                    <input type="range" name="progress" id="progress" value="0" step="1" min="0" max="100">
+                    <div class="progress__track song--track">
+                        <div class="progress__track-update"></div>
+                    </div>
+                    <span class="durationtime">04:30</span>
+                </div>
+            </div>
+
+            <div class="music-player__right">
+                <div class="video">
+                    <i class="fas fa-video"></i>
+                </div>
+
+                <div class="micro">
+                    <i class="fas fa-microphone"></i>
+                </div>
+
+                <div class="volume">
+                    <i class="fas fa-volume-up"></i>
+                    <i class="fas fa-volume-mute"></i>
+                    <div class="volume__progress">
+                        <input type="range" name="progress" id="volume-range" value="100" step="1" min="0" max="100">
+                        <div class="progress__track volume--track">
+                            <div class="progress__track-update"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <audio src="" id="audio"></audio>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/45120da303.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/musicPlayer.js"></script>
+</body>
+
+</html>
